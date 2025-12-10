@@ -1,0 +1,11 @@
+numpy
+pandas
+tqdm
+scikit-learn
+transformers
+sentencepiece
+torch
+python-dotenv
+openai   # used for OpenRouter, DeepSeek, Groq clients
+unbabel-comet
+bleurt @ git+https://github.com/google-research/bleurt.git
