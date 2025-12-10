@@ -60,7 +60,7 @@ Place datasets into their corresponding indicator folders before running code.
 
 ---
 
-## 🔐 API Key Setup (.env)
+##  API Key Setup (.env)
 
 Create a `.env` file in the project root and add the API keys used in this project:
 
@@ -73,8 +73,19 @@ The `.env` file is ignored by GitHub for security and must not be uploaded.
 Scripts automatically load these values using `python-dotenv`.
 
 ---
+## 🧪 Evaluation Metrics (BLEURT & COMET)
 
-## ▶️ Running the Code
+Some indicators use advanced text evaluation metrics:
+
+- **BLEURT** – A learned evaluation metric for assessing factuality and semantic similarity.  
+- **COMET** – A neural evaluation metric commonly used for translation and reliability scoring.
+
+These are installed automatically through `requirements.txt`.  
+Evaluation scripts run BLEURT or COMET only for indicators that require them.
+
+---
+
+##  Running the Code
 
 ### Installation
 pip install -r requirements.txt
