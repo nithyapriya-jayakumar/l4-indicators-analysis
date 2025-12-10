@@ -24,26 +24,26 @@ Each folder includes:
 
 #  L4 Indicators Overview
 
-## 1️ Factuality / Hallucination  
+## 1️. Factuality / Hallucination  
 Measures how accurately the model generates information and identifies hallucinated content.  
 **Folder:** `factuality_hallucination/`
 
 ---
 
-## 2️ Uncertainty & Confidence  
+## 2️. Uncertainty & Confidence  
 Evaluates whether the model expresses confidence appropriately relative to its output.  
 **Folder:** `uncertainty_confidence/`
 
 ---
 
-## 3️ Knowledge Attribution (L4)  
+## 3️. Knowledge Attribution (L4)  
 Assesses whether the model properly attributes its answers to the correct sources.  
 (Example dataset: HotpotQA — not included due to size limits.)  
 **Folder:** `knowledge_attribution_l4/`
 
 ---
 
-## 4️ Citation & Evidence Links  
+## 4️. Citation & Evidence Links  
 Checks whether the model provides evidence-backed citations and links statements to supporting information.  
 **Folder:** `citation_evidencelinks/`
 
@@ -115,5 +115,5 @@ Each indicator folder runs independently and produces its own output files.
 ---
 
 ## License
-This repository is for academic and research use only.
+This repository is for academic purpose.
  
